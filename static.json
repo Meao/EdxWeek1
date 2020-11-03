@@ -1,7 +1,8 @@
 {
  "headers": {
   "/*": {
-   "X-Author": "MarinaKrivson"
+   "X-Author": "MarinaKrivson",
+   "Access-Control-Allow-Origin": "*"
   }
  }
 }
