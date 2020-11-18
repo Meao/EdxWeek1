@@ -12,10 +12,10 @@ let response = await fetch(url1);
 if (response.ok) { // if HTTP-status is 200-299
   // get the response body (the method explained below)
   let result = await response.text();
+  document.querySelector('#inp').value = result;
 } else {
   alert("HTTP-Error: " + response.status);
 }
-document.querySelector('#inp').value = result;
 }
 document.querySelector('#bt').addEventListener('click', urlText);
 </script>
